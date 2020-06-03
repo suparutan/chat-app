@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header{
+display: inline;
+  position: fixed;
+  background-color: yellow;
+  font-size: 20px;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  display: flex
+
+}
+.li{
+  float: left;
+}
+.list--black{
+  background-color: black;
+  color:yellow;
+}
+  
+.list{
+  background-color: yellow;
+}
+
+.contents{
+  margin:auto;
+ background-color: gray;
+ width: 960px;
+}
+.left-content{
+height: 300px;
+width: 300px;
+background-color: red;
+
+}
+.blue-content{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+
+
+
+}
